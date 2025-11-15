@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="PizzaOrderSystem.PizzaOrderSystem">
+  <grid id="27dc6" binding="contentPane" layout-manager="GridLayoutManager" row-count="9" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="70" bottom="70" right="50"/>
+    <constraints>
+      <xy x="20" y="20" width="624" height="546"/>
+    </constraints>
+    <properties>
+      <preferredSize width="400" height="320"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="e56d8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Size:"/>
+        </properties>
+      </component>
+      <component id="7d15" class="javax.swing.JComboBox" binding="pizzaSizeChoice">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Small"/>
+            <item value="Medium"/>
+            <item value="Large"/>
+          </model>
+          <name value=""/>
+        </properties>
+      </component>
+      <component id="c7794" class="javax.swing.JComboBox" binding="pizzaToppingsChoice">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Mushrooms"/>
+            <item value="Pepperoni"/>
+            <item value="Onions"/>
+          </model>
+        </properties>
+      </component>
+      <component id="b2b6e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Toppings:"/>
+        </properties>
+      </component>
+      <component id="4c1f8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Extra Cheese:"/>
+        </properties>
+      </component>
+      <component id="1ae03" class="javax.swing.JComboBox" binding="extraCheeseChoice">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Yes"/>
+            <item value="No"/>
+          </model>
+        </properties>
+      </component>
+      <component id="9d282" class="javax.swing.JButton" binding="calculateButton">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="0" height="0"/>
+            <preferred-size width="100" height="50"/>
+            <maximum-size width="120" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <horizontalTextPosition value="0"/>
+          <iconTextGap value="1"/>
+          <text value="Calculate Total"/>
+        </properties>
+      </component>
+      <component id="1345c" class="javax.swing.JLabel" binding="totalLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="0"/>
+        </properties>
+      </component>
+      <vspacer id="fceb4">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>

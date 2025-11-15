@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FoodOrderingSystem.FoodOrderingSystem">
+  <grid id="27dc6" binding="contentPane" layout-manager="GridLayoutManager" row-count="8" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="30" left="50" bottom="30" right="30"/>
+    <constraints>
+      <xy x="20" y="20" width="522" height="400"/>
+    </constraints>
+    <properties>
+      <preferredSize width="500" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="409b4" class="javax.swing.JLabel" binding="foodLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="10" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <text value="Foods"/>
+        </properties>
+      </component>
+      <component id="3f25" class="javax.swing.JCheckBox" binding="cPizza">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <name value="Pizza"/>
+          <text value="Pizza                   Php 100"/>
+        </properties>
+      </component>
+      <component id="7d31e" class="javax.swing.JCheckBox" binding="cBurger">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <name value="Burger"/>
+          <text value="Burger                Php 80"/>
+        </properties>
+      </component>
+      <component id="94aa6" class="javax.swing.JCheckBox" binding="cSoftDrinks">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <name value="SoftDrinks"/>
+          <text value="Soft Drinks        Php 55"/>
+        </properties>
+      </component>
+      <component id="a930a" class="javax.swing.JCheckBox" binding="cTea">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <name value="Tea"/>
+          <text value="Tea                      Php 50"/>
+        </properties>
+      </component>
+      <component id="a855b" class="javax.swing.JCheckBox" binding="cSundae">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <name value="Sundae"/>
+          <text value="Sundae               Php 40"/>
+        </properties>
+      </component>
+      <hspacer id="4a04d">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="0" height="0"/>
+            <preferred-size width="50" height="10"/>
+            <maximum-size width="50" height="1000"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="4b903" class="javax.swing.JCheckBox" binding="cFries">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <actionCommand value="Fries                    Php 65"/>
+          <label value="Fries                    Php 65"/>
+          <name value="Fries"/>
+          <text value="Fries                    Php 65"/>
+        </properties>
+      </component>
+      <component id="a727d" class="javax.swing.JRadioButton" binding="rbNone">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <actionCommand value="0"/>
+          <name value="0"/>
+          <text value="None"/>
+        </properties>
+      </component>
+      <component id="2c8c7" class="javax.swing.JRadioButton" binding="rb5">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <actionCommand value="5"/>
+          <name value="5"/>
+          <text value="5% Off"/>
+        </properties>
+      </component>
+      <component id="6045f" class="javax.swing.JRadioButton" binding="rb10">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <actionCommand value="10"/>
+          <name value="10"/>
+          <text value="10% Off"/>
+        </properties>
+      </component>
+      <component id="fa4ee" class="javax.swing.JRadioButton" binding="rb15">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <actionCommand value="15"/>
+          <name value="15"/>
+          <text value="15% Off"/>
+        </properties>
+      </component>
+      <component id="5ff89" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <text value="Discounts"/>
+        </properties>
+      </component>
+      <component id="e6589" class="javax.swing.JButton" binding="btnOrder">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="0" height="0"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Order"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
